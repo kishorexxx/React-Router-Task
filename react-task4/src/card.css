@@ -1,0 +1,17 @@
+.container{
+    text-align:center;
+    padding:20px;
+  }
+  .card-container{
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  width: 18rem;
+  }
+  .card{
+    flex:0 0 cal(33.33%- 20px);/*Three cards per row with spacing */
+    text-align: center;
+    padding:1px;
+    margin: 10px;
+  }

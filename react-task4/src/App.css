@@ -1,0 +1,62 @@
+#root {  
+  margin-left: 100px;
+  margin-top:0px; 
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+.card {
+  padding: 2em;
+  text-align:left;
+}
+
+.container{
+  text-align:center;
+  padding:20px; 
+}
+.card-container{
+display:flex;    
+   align-content:center;
+  justify-content: space-around;
+  align-items: flex-start;
+  /* flex-direction: column; */
+  flex-wrap:wrap;
+}
+.card{
+  flex:0 0 cal(33.33%- 20px);/*Three cards per row with spacing */
+  padding:1px;
+  margin: 10px;
+  font-size: 10px;
+  background-color: gray;
+}
+
+.navbar ul li{
+  margin-right: auto;
+  margin-left: 20px;
+  color: black; 
+  position :relative;
+  margin: top 5px;
+}
+.navbar{
+  background-color: white;
+  color:#111010; 
+  position :relative;
+  margin: top 5px;
+}
+.navbar .container1{
+  display:flex ;
+  align-items: center;
+  height:100%;
+  border: 1px solid black;
+  }
+.align {
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ color:black;
+ margin-left: 300px;
+ font-weight: bold;
+ }
